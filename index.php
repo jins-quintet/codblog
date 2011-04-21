@@ -30,11 +30,11 @@
 
 	switch (ENVIRONMENT)
 	{
-		case 'testing':
+		case 'development':
 			error_reporting(E_ALL);
 		break;
 	
-		case 'development':
+		case 'testing':
 		case 'production':
 			error_reporting(0);
 		break;
